@@ -35,7 +35,7 @@ const CoinItem = ({ coin }) => {
                 : "text-red-600"
             }
           >
-            {coin?.price_change_percentage_1h_in_currency.toFixed(2)}%
+            {coin?.price_change_percentage_1h_in_currency?.toFixed(2)}%
           </p>
         }
       </td>
